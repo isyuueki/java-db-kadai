@@ -8,7 +8,6 @@ import java.sql.Statement;
 public class Employees_Chapter04 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 		Connection con = null;
 		Statement statement = null;
 
@@ -24,7 +23,7 @@ public class Employees_Chapter04 {
 			// SQLクエリを準備
 			statement = con.createStatement();
 			String sql = """
-					CREATE TABLE emplyees (
+					CREATE TABLE employees (
 					  id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
 					  name VARCHAR(60) NOT NULL,
 					  email VARCHAR(255) NOT NULL,
